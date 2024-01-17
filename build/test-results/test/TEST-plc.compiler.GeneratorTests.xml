@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="plc.compiler.GeneratorTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-12-15T02:48:01" hostname="DESKTOP-2DGH6BL" time="0.017">
+  <properties/>
+  <testcase name="testDeclarationSmall()" classname="plc.compiler.GeneratorTests" time="0.002"/>
+  <testcase name="testStatementPrint()" classname="plc.compiler.GeneratorTests" time="0.0"/>
+  <testcase name="testWhileBig()" classname="plc.compiler.GeneratorTests" time="0.002"/>
+  <testcase name="testGroup()" classname="plc.compiler.GeneratorTests" time="0.001"/>
+  <testcase name="testIfBig()" classname="plc.compiler.GeneratorTests" time="0.001"/>
+  <testcase name="testEmptySource2()" classname="plc.compiler.GeneratorTests" time="0.003"/>
+  <testcase name="testLiteralSmall()" classname="plc.compiler.GeneratorTests" time="0.001"/>
+  <testcase name="testSourcePrint()" classname="plc.compiler.GeneratorTests" time="0.001"/>
+  <testcase name="testWhileSmall()" classname="plc.compiler.GeneratorTests" time="0.0"/>
+  <testcase name="testIfSmall()" classname="plc.compiler.GeneratorTests" time="0.0"/>
+  <testcase name="testExpression()" classname="plc.compiler.GeneratorTests" time="0.0"/>
+  <testcase name="testLiteralBig()" classname="plc.compiler.GeneratorTests" time="0.0"/>
+  <testcase name="testExpressionPrint()" classname="plc.compiler.GeneratorTests" time="0.0"/>
+  <testcase name="testDeclarationBig()" classname="plc.compiler.GeneratorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

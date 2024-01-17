@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class plc.compiler.AnalyzerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class plc.compiler.AnalyzerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/plc.compiler.html">plc.compiler</a> &gt; AnalyzerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">42</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.048s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Valid Statement</td>
+<td class="success">testAssignmentStatement(String, Assignment, Assignment)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Another valid statement</td>
+<td class="success">testAssignmentStatement(String, Assignment, Assignment)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Equals</td>
+<td class="success">testBinaryExpression(String, Binary, Binary)[1]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">String Concatenation</td>
+<td class="success">testBinaryExpression(String, Binary, Binary)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Binary: Void type</td>
+<td class="success">testBinaryExpression(String, Binary, Binary)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Binary: Void type</td>
+<td class="success">testBinaryExpression(String, Binary, Binary)[4]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Binary: Boolean + operator</td>
+<td class="success">testBinaryExpression(String, Binary, Binary)[5]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Binary: Boolean - operator</td>
+<td class="success">testBinaryExpression(String, Binary, Binary)[6]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Binary: Boolean - operator</td>
+<td class="success">testBinaryExpression(String, Binary, Binary)[7]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Same Types</td>
+<td class="success">testCheckAssignable(String, Type, Type, boolean)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Different Types</td>
+<td class="success">testCheckAssignable(String, Type, Type, boolean)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Integer to Decimal</td>
+<td class="success">testCheckAssignable(String, Type, Type, boolean)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Decimal to Integer</td>
+<td class="success">testCheckAssignable(String, Type, Type, boolean)[4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">String to Any</td>
+<td class="success">testCheckAssignable(String, Type, Type, boolean)[5]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Void to Any</td>
+<td class="success">testCheckAssignable(String, Type, Type, boolean)[6]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Declare Boolean</td>
+<td class="success">testDeclarationStatement(String, Declaration, Declaration)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Define String</td>
+<td class="success">testDeclarationStatement(String, Declaration, Declaration)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Print One Argument</td>
+<td class="success">testFunctionExpression(String, Function, Function)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Print Multiple Arguments</td>
+<td class="success">testFunctionExpression(String, Function, Function)[2]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Valid Condition</td>
+<td class="success">testIfStatement(String, If, If)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Condition</td>
+<td class="success">testIfStatement(String, If, If)[2]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Statement</td>
+<td class="success">testIfStatement(String, If, If)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Integer Valid</td>
+<td class="success">testLiteralExpression(String, Literal, Literal)[1]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Integer Invalid</td>
+<td class="success">testLiteralExpression(String, Literal, Literal)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Boolean Valid</td>
+<td class="success">testLiteralExpression(String, Literal, Literal)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Decimal Valid</td>
+<td class="success">testLiteralExpression(String, Literal, Literal)[4]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Decimal Invalid infinity + 1</td>
+<td class="success">testLiteralExpression(String, Literal, Literal)[5]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Decimal Invalid negative infinity - 1</td>
+<td class="success">testLiteralExpression(String, Literal, Literal)[6]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">String valid</td>
+<td class="success">testLiteralExpression(String, Literal, Literal)[7]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">String invalid</td>
+<td class="success">testLiteralExpression(String, Literal, Literal)[8]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid If: Then Statements empty</td>
+<td class="success">testSource(String, Source, Source)[10]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid While: No boolean condition</td>
+<td class="success">testSource(String, Source, Source)[11]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Valid Else Statements: </td>
+<td class="success">testSource(String, Source, Source)[12]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Valid Ast Source</td>
+<td class="success">testSource(String, Source, Source)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Source</td>
+<td class="success">testSource(String, Source, Source)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Expression Statement</td>
+<td class="success">testSource(String, Source, Source)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Declaration: variable all defined</td>
+<td class="success">testSource(String, Source, Source)[4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Declaration: variable is VOID</td>
+<td class="success">testSource(String, Source, Source)[5]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Declaration: value is not assignable to variable type</td>
+<td class="success">testSource(String, Source, Source)[6]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Assignment: variable is not defined with given name</td>
+<td class="success">testSource(String, Source, Source)[7]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid Assignment: variable is not assignable to given type</td>
+<td class="success">testSource(String, Source, Source)[8]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Invalid If: Condition does not evaluate to boolean</td>
+<td class="success">testSource(String, Source, Source)[9]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>3.345234
+Infinity
+Infinity
+Infinity
+-Infinity
+Infinity
+Type{name='STRING', jvmName='String'}
+Type{name='ANY', jvmName='Object'}
+Type{name='STRING', jvmName='String'}
+Type{name='ANY', jvmName='Object'}
+10.0
+Infinity
+Type{name='STRING', jvmName='String'}
+Type{name='ANY', jvmName='Object'}
+Type{name='STRING', jvmName='String'}
+Type{name='ANY', jvmName='Object'}
+Type{name='INTEGER', jvmName='int'}
+Type{name='ANY', jvmName='Object'}
+Type{name='STRING', jvmName='String'}
+Type{name='ANY', jvmName='Object'}
+Type{name='ANY', jvmName='Object'}
+Type{name='ANY', jvmName='Object'}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.6</a> at Dec 14, 2020 9:48:01 PM</p>
+</div>
+</div>
+</body>
+</html>

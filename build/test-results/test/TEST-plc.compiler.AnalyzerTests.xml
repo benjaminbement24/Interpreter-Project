@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="plc.compiler.AnalyzerTests" tests="42" skipped="0" failures="0" errors="0" timestamp="2020-12-15T02:48:01" hostname="DESKTOP-2DGH6BL" time="0.108">
+  <properties/>
+  <testcase name="Integer Valid" classname="plc.compiler.AnalyzerTests" time="0.004"/>
+  <testcase name="Integer Invalid" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Boolean Valid" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Decimal Valid" classname="plc.compiler.AnalyzerTests" time="0.002"/>
+  <testcase name="Decimal Invalid infinity + 1" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Decimal Invalid negative infinity - 1" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="String valid" classname="plc.compiler.AnalyzerTests" time="0.0"/>
+  <testcase name="String invalid" classname="plc.compiler.AnalyzerTests" time="0.002"/>
+  <testcase name="Print One Argument" classname="plc.compiler.AnalyzerTests" time="0.002"/>
+  <testcase name="Print Multiple Arguments" classname="plc.compiler.AnalyzerTests" time="0.0"/>
+  <testcase name="Valid Statement" classname="plc.compiler.AnalyzerTests" time="0.002"/>
+  <testcase name="Another valid statement" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Declare Boolean" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Define String" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Valid Condition" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Condition" classname="plc.compiler.AnalyzerTests" time="0.002"/>
+  <testcase name="Invalid Statement" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Equals" classname="plc.compiler.AnalyzerTests" time="0.003"/>
+  <testcase name="String Concatenation" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Binary: Void type" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Binary: Void type" classname="plc.compiler.AnalyzerTests" time="0.002"/>
+  <testcase name="Invalid Binary: Boolean + operator" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Binary: Boolean - operator" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Binary: Boolean - operator" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Valid Ast Source" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Source" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Expression Statement" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Declaration: variable all defined" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Declaration: variable is VOID" classname="plc.compiler.AnalyzerTests" time="0.0"/>
+  <testcase name="Invalid Declaration: value is not assignable to variable type" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Assignment: variable is not defined with given name" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid Assignment: variable is not assignable to given type" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid If: Condition does not evaluate to boolean" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid If: Then Statements empty" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Invalid While: No boolean condition" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Valid Else Statements: " classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Same Types" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Different Types" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Integer to Decimal" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="Decimal to Integer" classname="plc.compiler.AnalyzerTests" time="0.001"/>
+  <testcase name="String to Any" classname="plc.compiler.AnalyzerTests" time="0.0"/>
+  <testcase name="Void to Any" classname="plc.compiler.AnalyzerTests" time="0.0"/>
+  <system-out><![CDATA[3.345234
+Infinity
+Infinity
+Infinity
+-Infinity
+Infinity
+Type{name='STRING', jvmName='String'}
+Type{name='ANY', jvmName='Object'}
+Type{name='STRING', jvmName='String'}
+Type{name='ANY', jvmName='Object'}
+10.0
+Infinity
+Type{name='STRING', jvmName='String'}
+Type{name='ANY', jvmName='Object'}
+Type{name='STRING', jvmName='String'}
+Type{name='ANY', jvmName='Object'}
+Type{name='INTEGER', jvmName='int'}
+Type{name='ANY', jvmName='Object'}
+Type{name='STRING', jvmName='String'}
+Type{name='ANY', jvmName='Object'}
+Type{name='ANY', jvmName='Object'}
+Type{name='ANY', jvmName='Object'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

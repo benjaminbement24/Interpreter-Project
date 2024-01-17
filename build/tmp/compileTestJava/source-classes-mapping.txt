@@ -1,0 +1,25 @@
+plc/interpreter/RegexTests.java
+ plc.interpreter.RegexTests
+plc/interpreter/ParserTests.java
+ plc.interpreter.ParserTests
+plc/interpreter/LexerTests.java
+ plc.interpreter.LexerTests
+plc/interpreter/InterpreterBaselineTests.java
+ plc.interpreter.InterpreterBaselineTests
+plc/compiler/LexerTests.java
+ plc.compiler.LexerTests
+plc/interpreter/InterpreterTests.java
+ plc.interpreter.InterpreterTests
+ plc.interpreter.InterpreterTests$1
+ plc.interpreter.InterpreterTests$2
+ plc.interpreter.InterpreterTests$3
+ plc.interpreter.InterpreterTests$4
+ plc.interpreter.InterpreterTests$5
+plc/interpreter/ParserTestsUpdate.java
+ plc.interpreter.ParserTestsUpdate
+plc/compiler/AnalyzerTests.java
+ plc.compiler.AnalyzerTests
+plc/compiler/GeneratorTests.java
+ plc.compiler.GeneratorTests
+plc/compiler/ParserTests.java
+ plc.compiler.ParserTests
